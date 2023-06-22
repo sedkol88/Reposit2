@@ -1,3 +1,230 @@
-div {
-    background-color: yellowgreen;
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #A8A8A8;
+}
+
+.glass{
+    width: 1380px;
+    background-color: #e5e5e5;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.main-content{
+    width: 830px;
+    padding-left: 80px;
+    padding-top: 100px;
+    padding-right: 80px;
+}
+
+.about-user{
+    width: 400px;
+    margin-bottom: 40px;
+}
+.position{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 19px;
+}
+.user-name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    margin-bottom: 24px;
+    margin-top: 0px;
+}
+.user-info{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-top: 0px;
+}
+
+.projects{
+    width: 485px;
+    margin-top: 0px;
+    margin-bottom: 51px;
+}
+.main-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.projects-ol{
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-left: 15px;
+}
+.projects-li{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+.projects-li-text,
+.projects-a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.breket{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.work {
+    width: 525px;
+    margin-bottom: 43px;
+}
+.work-company1{
+    margin-bottom: 16px;
+}
+.work-position{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 11px;
+}
+.company{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    margin-top: 0px;
+    margin-bottom: 11px;
+}
+.work-period{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 8px;
+}
+.work-ul{
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 525px;
+}
+.work-info{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.education{
+    margin-bottom: 107px;
+}
+.educ-position{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+
+
+
+.sidebar{
+    background-color: #1E2939;
+    padding-top: 40px;
+}
+.image{
+    width: 370px;
+}
+
+.contacts{
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sidebar-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.contact-box{
+    margin: 0px;
+}
+.letter{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.contact{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-left: 10px;
+}
+
+.tech-skills,
+.soft-skills{
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+.skills-list{
+    padding: 0px;
+    margin-left: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FB6D3A;
+}
+.skills-item{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
 }
